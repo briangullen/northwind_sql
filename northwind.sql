@@ -21,7 +21,7 @@ SELECT * FROM customers ORDER BY country, city;
 
 -- Question 8
 INSERT INTO customers(customer_id, company_name, contact_name, contact_title, address, city, region, postal_code, country, phone, fax)
-VALUES('GCDAT', 'GC Data', 'John Doe', 'Director', '123 lane', 'Detroit', 'NA', '48187', 'USA', '(313) 123-4564', '(313) 456-7890);
+VALUES('GCDAT', 'GC Data', 'John Doe', 'Director', '123 lane', 'Detroit', 'NA', '48187', 'USA', '(313) 123-4564', '(313) 456-7890');
 
 -- Question 9
 UPDATE orders SET ship_region='EuroZone' WHERE ship_country='France';
